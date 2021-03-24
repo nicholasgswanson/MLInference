@@ -1,0 +1,12 @@
+/var/spool/slurmd/job7917878/slurm_script: line 24: --mail-user=nicholas.swanson@berkeley.edu: command not found
+the current flag is 
+0
+r/4.0.3(32):ERROR:105: Unable to locate a modulefile for 'mkl/2016.4.072'
+hdf5(32):ERROR:105: Unable to locate a modulefile for 'hdf5/1.8.18-gcc-s'
+(32):ERROR:105: Unable to locate a modulefile for 'netcdf/4.4.1.1-gcc-s'
+(32):ERROR:105: Unable to locate a modulefile for 'udunits/2.2.24-gcc'
+(32):ERROR:105: Unable to locate a modulefile for 'openmpi/2.0.2-gcc'
+change to GPU
+ 
+Job ended at Tue Mar 23 16:16:51 PDT 2021
+ 

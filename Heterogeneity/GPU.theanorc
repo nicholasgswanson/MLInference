@@ -1,0 +1,28 @@
+[global]
+base_compiledir =/tmp/%(user)s/theano.NOBACKUP
+config.compile.timeout =2000
+# config.compile.wait = 50
+# GPU setting
+device = cuda
+floatX = float32
+# mode = FAST_RUN
+exception_verbosity=high
+# warn_float64 = pdb
+
+[lib]
+cnmem = 1
+
+[pycuda]
+init = True
+
+[dnn]
+enabled = True
+
+# [experimental]
+# unpickle_gpu_on_cpu = True
+
+# include_path=/storage/home/g/gum27/local/cuda/include
+# library_path=/storage/home/g/gum27/local/cuda/lib64
+
+
+

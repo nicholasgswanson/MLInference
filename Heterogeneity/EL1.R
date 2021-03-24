@@ -13,6 +13,30 @@
 # 4) best: A latex table reporting best ML methods
 # 5) MSE: A latex table of mean squared errors from tuning
 
+
+
+###################### Loading packages ###########################
+
+library(foreign);
+library(quantreg);
+library(mnormt);
+library(gbm);
+library(glmnet);
+library(MASS);
+library(rpart);
+library(doParallel)
+library(sandwich);
+library(hdm);
+library(randomForest);
+library(nnet)
+library(matrixStats)
+library(quadprog)
+library(ivmodel)
+library(xtable)
+library(readstata13)
+library(lfe)
+
+
 rm(list=ls(all=TRUE))
 vec.pac= c("foreign", "quantreg", "gbm", "glmnet",
            "MASS", "rpart", "doParallel", "sandwich", "randomForest",

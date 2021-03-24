@@ -1,0 +1,14 @@
+[global]
+base_compiledir = /tmp/%(user)s/theano.NOBACKUP
+config.compile.timeout = 1000
+# device = cuda
+floatX = float32
+exception_verbosity=high
+[dnn]
+# enabled = True
+[experimental]
+unpickle_gpu_on_cpu = True
+
+# include_path=/storage/home/g/gum27/local/cuda/include
+# library_path=/storage/home/g/gum27/local/cuda/lib64
+
